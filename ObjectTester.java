@@ -51,6 +51,16 @@ public class ObjectTester {
         System.out.println("d3 age via getter = " + d3.getAge());
         System.out.println("d3 now = " + d3);
 
+        //Start of cat
+        System.out.println("\nCat Classification");
+        //Making a default cat object
+        Cat cat1 = new Cat();
+
+        //make a cat object with given data
+        Cat cat2 = new Cat("Stinky", true, "Short hair");
+        System.out.println("Cat object 1" + cat1);
+        System.out.println("Cat object 2" + cat2);
+
 
     }// end of main
 
